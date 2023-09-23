@@ -21,7 +21,7 @@ function handleButtonClick() {
 
     let result = calculateBmi(weightInput, heightInput);
     let totalResult = document.getElementById("result");
-    totalResult.textContent = "Ваш индекс массы тела: " + result;
+    totalResult.textContent = "Your body mass index: " + result;
 }
 
 // Вещаю слушатель событий на кнопку:
