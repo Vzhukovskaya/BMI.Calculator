@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate BMI</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h2 class="title"> BMI Calculator <i class="fa-solid fa-square-root-variable"></i></h2>
+    <div class="inputs-wrapper">
+        <label for="weightInput">Enter your weight(kg):</label><br>
+        <input id="weightInput" type="numbers" placeholder="For example 65"><br />
+        <label for="heightInput">Enter your height(m):</label><br>
+        <input id="heightInput" type="numbers" placeholder="For example 1.70"><br />
+    </div>
+    <div class="wrapper">
+        <button class="btn" id="calculateButton">Calculate <i class="fa-solid fa-hourglass-end"></i></button>
+        <div class="result"><span id="result"></span></div>
+        <h3 class="title">Классификация значений индекса массы тела<br>(BMI):</h3>
+        <ul class="conclusion-list">
+            <li><span>ИМТ менее 18.5:</span> Недостаточный вес. Это может указывать на недостаточное питание или
+                другие проблемы
+                со
+                здоровьем.</li>
+            <li><span>ИМТ от 18.5 до 24.9:</span> Нормальный вес. В этом диапазоне считается, что вес находится в
+                здоровых
+                пределах.
+            </li>
+            <li><span>ИМТ от 25.0 до 29.9:</span> Избыточный вес. В этой категории есть некоторый риск развития
+                связанных с
+                ожирением
+                заболеваний.</li>
+            <li><span>ИМТ от 30.0 до 34.9:</span>Ожирение I степени. Риск развития заболеваний, связанных с
+                ожирением,
+                значительно
+                повышен.</li>
+            <li><span>ИМТ от 35.0 до 39.9:</span> Ожирение II степени. Риск развития серьезных заболеваний, таких
+                как диабет и
+                сердечно-сосудистые заболевания, очень высок.</li>
+            <li><span>ИМТ 40 и выше:</span> Тяжелое ожирение (ожирение III степени). Высокий риск развития серьезных
+                заболеваний
+                и
+                осложнений.</li>
+        </ul>
+    </div>
+
+    <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/944885f069.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

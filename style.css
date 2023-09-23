@@ -1,0 +1,87 @@
+.title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inputs-wrapper {
+    margin: 20px auto;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+.inputs-wrapper input {
+    width: 200px;
+    margin: 20px 0 20px;
+    padding: 10px;
+    background-color: rgb(237, 233, 228);
+}
+
+.wrapper {
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.btn {
+    font-size: 20px;
+    text-align: center;
+
+    margin: 20px auto;
+    padding: 12px 40px;
+
+    background-color: rgb(237, 233, 228);
+
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+    background-color: rgb(222, 216, 211);
+}
+
+.result span {
+    font-size: 25px;
+}
+
+.conclusion-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+
+.conclusion-list li {
+    min-width: 330px;
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    margin: 20px;
+    margin-top: 0;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.conclusion-list li:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+    background-color: rgb(237, 233, 228);
+    cursor: pointer;
+}
+
+.conclusion-list span {
+    font-size: 22px;
+    font-weight: 900;
+    background-color: rgb(237, 233, 228);
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
