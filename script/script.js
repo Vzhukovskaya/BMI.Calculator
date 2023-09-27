@@ -19,6 +19,15 @@ function handleButtonClick() {
     let weightInput = Number(document.getElementById("weightInput").value);
     let heightInput = Number(document.getElementById("heightInput").value);
 
+    if (
+        isNaN(weightInput) ||
+        isNaN(heightInput) ||
+        weightInput <= 0 ||
+        heightInput <= 0
+    ) {
+        alert('Пожалуйста, введите корректные числовые значения веса и роста');
+    }
+
     let result = calculateBmi(weightInput, heightInput);
     let totalResult = document.getElementById("result");
     totalResult.textContent = "Your body mass index: " + result;
